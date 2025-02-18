@@ -82,6 +82,19 @@
     background-color: #f8f9fa; /* Light gray for light rows */
 }
 
+/*.btn-group1{
+ 
+      margin-top: 20px;
+}*/
+
+.button-container{
+  display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  justify-content: center;
+      align-items: center;
+}
+
 
     </style>
 
@@ -121,6 +134,23 @@
     </div>
   </div>
 
+  <div class="d-flex justify-content-center">
+  <div class="btn-toolbar" role="toolbar" aria-label="Dog breed button groups">
+    <div class="btn-group" role="group" aria-label="Breeds with images">
+      <button type="button" class="btn btn-success me-4">Maltese</button>
+      <button type="button" class="btn btn-success me-4">Alaskan Malamute</button>
+      <button type="button" class="btn btn-success me-4">Poodle</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Breeds without images">
+      <button type="button" class="btn btn-warning me-4">Dachshund</button>
+      <button type="button" class="btn btn-warning me-4">Uromastyx</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Remaining breed">
+      <button type="button" class="btn btn-danger">Airedale Terrier</button>
+    </div>
+    </div>
+  </div>
+
   
     <div class="image-container">
         <img src= maltese.jpg
@@ -141,6 +171,9 @@
     <img src="poodle.jpg" alt="A curly-haired Poodle dog" />
     <img src="malamute.jpg" alt="A large Alaskan Malamute dog" />
   </div>
+  
+  
+
 
   <table class="table table-striped table-hover table-bordered">
     <caption>Table of Letters, Pets, Rivers, and Cities</caption>
